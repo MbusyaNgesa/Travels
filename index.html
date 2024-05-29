@@ -34,12 +34,20 @@
           </button>
           <div class="collapse navbar-collapse text-lg-secondary" id="navmenu">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item m-2"><a href="#"></a>Home</li>
-              <li class="nav-item m-2">
-                <a href="#destination"></a>Destinations
+              <li class="nav-item">
+                <a href="#" class="nav-link" id="grey">Home</a>
               </li>
-              <li class="nav-item m-2"><a href="#tours"></a>Tours</li>
-              <li class="nav-item m-2"><a href="#contact"></a>Contact</li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destination" id="orange"
+                  >Destinations</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#tours" class="nav-link" id="grey">Tours</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link" id="orange">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -64,7 +72,90 @@
     </section>
 
     <!--Destination Section-->
+    <section class="pt-5 bg-secondary" id="destination">
+      <div class="container">
+        <h1 class="text-center text-dark mb-5">Top tour destinations</h1>
+        <div class="row g-4">
+          <!--Destination 1-->
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body text-center">
+                <img
+                  src="Photo/4292d106-10c4-4b03-b470-afaba845d8dc.jpg"
+                  alt="invalid"
+                  class="rounded-circle mb-3 w-50 align-center"
+                />
+                <h2 class="card-title mb-3">Diani</h2>
+                <p class="card-text text-center text-secondary">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Vero, officia?
+                </p>
 
+                <a href="#" class="btn btn-primary" id="buttons">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!--Destination 2-->
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body text-center">
+                <img
+                  src="Photo/Namibia.jpg"
+                  alt="invalid"
+                  class="rounded-circle mb-3 w-50 align-center"
+                  id="namibia"
+                />
+                <h2 class="card-title mb-3">Namibia</h2>
+                <p class="card-text text-center text-secondary">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Vero, officia?
+                </p>
+                <a href="#" class="btn btn-primary" id="buttons">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!--Destination 3-->
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body text-center">
+                <img
+                  src="Photo/china.jpg"
+                  alt="invalid"
+                  class="rounded-circle mb-3 w-50 align-center"
+                />
+                <h2 class="card-title mb-3">China</h2>
+                <p class="card-text text-center text-secondary">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Vero, officia?
+                </p>
+                <a href="#" class="btn btn-primary" id="buttons">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!--Destination 4-->
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body text-center">
+                <img
+                  src="Photo/rwanda.jpg"
+                  alt="invalid"
+                  class="rounded-circle mb-3 w-50"
+                />
+                <h2 class="card-title mb-3">Rwanda</h2>
+                <p class="card-text text-center text-secondary">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Vero, officia?
+                </p>
+                <a href="#" class="btn btn-primary" id="buttons">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--Tours-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

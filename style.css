@@ -2,7 +2,13 @@
   color: #ff430c !important;
 }
 #navmenu {
-  color: #ff430c;
+  color: #d64d24;
+}
+#orange {
+  color: #d64d24;
+}
+#grey {
+  color: rgb(139, 138, 138);
 }
 #image {
   background-image: url(Photo/hero.jpg);
@@ -16,6 +22,9 @@
 }
 #travel {
   color: #ff430c;
+}
+#buttons {
+  background-color: #ff430c;
 }
 @media (max-width: 768px) {
   #image {
