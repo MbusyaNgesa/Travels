@@ -26,6 +26,10 @@
 #buttons {
   background-color: #ff430c;
 }
+#diani {
+  width: 100vh;
+  height: 170px;
+}
 @media (max-width: 768px) {
   #image {
     background-size: cover;
