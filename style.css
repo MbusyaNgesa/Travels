@@ -4,6 +4,9 @@
 #navmenu {
   color: #d64d24;
 }
+#book {
+  background-color: #ff430c;
+}
 .mage {
   height: 500px;
 }
@@ -38,13 +41,16 @@
   height: 250px;
 }
 #china {
-  height: 250px;
+  height: 251px;
 }
 #namibia {
-  height: 250px;
+  height: 245px;
 }
 #submit {
   background-color: #ff430c;
+}
+#copyrights {
+  color: #d64d24 !important;
 }
 @media (max-width: 768px) {
   #image {
