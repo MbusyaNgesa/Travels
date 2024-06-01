@@ -1,0 +1,59 @@
+#home {
+  color: #ff430c !important;
+}
+#navmenu {
+  color: #d64d24;
+}
+#book {
+  background-color: #ff430c;
+}
+.mage {
+  height: 500px;
+}
+#diani {
+  background-color: #ff430c;
+}
+#orange {
+  color: #d64d24;
+}
+#grey {
+  color: rgb(139, 138, 138);
+}
+#image {
+  background-image: url(Photo/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 250%;
+  background-position: center;
+  height: 100vh;
+
+  opacity: 0.8;
+  top: 50%;
+  bottom: 50%;
+}
+#travel {
+  color: #ff430c;
+  position: relative;
+}
+#buttons {
+  background-color: #ff430c;
+}
+#rwanda {
+  height: 250px;
+}
+#china {
+  height: 251px;
+}
+#namibia {
+  height: 245px;
+}
+#submit {
+  background-color: #ff430c;
+}
+#copyrights {
+  color: #d64d24 !important;
+}
+@media (max-width: 768px) {
+  #image {
+    background-size: cover;
+  }
+}
